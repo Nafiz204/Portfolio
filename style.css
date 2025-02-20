@@ -1,0 +1,143 @@
+/* Global Properties */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1f2235;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+/* Navigation */
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #f5ba09;
+  transition: 0.5s ease;
+}
+
+/* Main Container height */
+.main-container {
+  height: 100vh;
+}
+
+/* Aligning items in main row */
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Changing Name Font size */
+.main_row h1 {
+  font-size: 5rem;
+}
+
+/* Making the main image the size of the screen */
+.main_row img {
+  width: auto;
+  height: 100vh;
+}
+
+/* About Section */
+.about {
+  background: #313552;
+  border-radius: 0.5rem;
+}
+
+.card {
+  border-bottom: 8px solid #f5ba09;
+}
+
+/* Social Media Section */
+#social-media {
+  background: #313552;
+}
+
+/* Add color to Social Media Links */
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #f5ba09;
+  border-radius: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .main_row h1 {
+    font-size: 4rem;
+  }
+
+  .main_row img {
+    height: 80vh;
+  }
+
+  .media_link {
+    max-width: 12rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .main_row h1 {
+    font-size: 3rem;
+  }
+
+  .main_row img {
+    height: 60vh;
+  }
+
+  .media_link {
+    max-width: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main_row {
+    flex-direction: column;
+  }
+
+  .main_row h1 {
+    font-size: 2.5rem;
+  }
+
+  .main_row img {
+    height: 50vh;
+  }
+
+  .media_link {
+    max-width: 8rem;
+    margin-left: 0.5rem;
+  }
+
+  .media_link h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .main_row h1 {
+    font-size: 2rem;
+  }
+
+  .main_row img {
+    height: 40vh;
+  }
+
+  .media_link {
+    max-width: 12rem; /* Increase the width */
+    margin-left: 0.5rem;
+  }
+
+  .media_link h3 {
+    font-size: 0.8rem;
+  }
+}
