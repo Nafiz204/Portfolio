@@ -37,7 +37,7 @@ Technologies used in the project:
 
 <h2>🛡️ License:</h2>
 
-This project is licensed under the This project is free to use and does not contains any license.
+This project is free to use and does not contain any license.
 
 <h2>💖Like my work?</h2>
 
