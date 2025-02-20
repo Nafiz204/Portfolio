@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Portfolio-Nafiz_Imtiaz</h1>
 
-<p align="center"><img src="https://github.com/Nafiz204/Portfolio-Nafiz_Imtiaz" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/Nafiz204/Portfolio-Nafiz_Imtiaz/image?issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
 <p id="description">A fully responsive personal portfolio website Responsive for all devices build using HTML CSS.</p>
 
